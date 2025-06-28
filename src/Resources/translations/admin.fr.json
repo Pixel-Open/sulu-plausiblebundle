@@ -1,0 +1,8 @@
+{
+    "plausible.statistics": "Statistiques Plausible",
+    "plausible.configuration_missing": "Configuration manquante",
+    "plausible.domain_not_configured": "Le domaine Plausible n'est pas configuré",
+    "plausible.check_env_variable": "Vérifiez que la variable PLAUSIBLE_DOMAIN est configurée dans votre fichier .env",
+    "plausible.domain": "Domaine",
+    "plausible.statistics_for": "Statistiques Plausible pour {domain}"
+}
