@@ -1,0 +1,21 @@
+{
+    "name": "pixelopen/sulu-plausiblebundle",
+    "description": "This bundle allows you to integrate Plausible analytics statistics into the Sulu administration interface via an embedded iframe.",
+    "type": "sulu-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "sulu/sulu": "^2.6",
+        "symfony/framework-bundle": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pixel\\PlausibleBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "sulu": {
+            "bundle-class": "Pixel\\PlausibleBundle\\PlausibleBundle"
+        }
+    }
+}
