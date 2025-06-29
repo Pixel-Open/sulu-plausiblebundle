@@ -1,8 +1,9 @@
 {
-    "plausible.statistics": "Plausible Statistics",
+    "plausible.statistics": "Statistics",
     "plausible.configuration_missing": "Missing Configuration",
     "plausible.domain_not_configured": "Plausible domain is not configured",
     "plausible.check_env_variable": "Check that the PLAUSIBLE_DOMAIN variable is configured in your .env file",
     "plausible.domain": "Domain",
-    "plausible.statistics_for": "Plausible Statistics for {domain}"
+    "plausible.statistics_for": "Statistics for {domain}",
+    "sulu_admin.permissions.plausible.settings": "Plausible Settings"
 }
