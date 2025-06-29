@@ -13,7 +13,7 @@ This bundle allows you to integrate Plausible analytics statistics into the Sulu
 
 ![screenshot.png](src/Resources/doc/screenshot.png)
 
-## ❤️Features
+## ❤️ Features
 
 - ✅ Display Plausible statistics in Sulu admin
 - ✅ Configuration via environment variables
