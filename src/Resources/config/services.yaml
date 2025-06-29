@@ -5,4 +5,12 @@ services:
 
     Pixel\PlausibleBundle\:
         resource: '../../*'
-        exclude: '../../{DependencyInjection,Resources,Admin}'
+        exclude: '../../{DependencyInjection,Resources}'
+
+    Pixel\PlausibleBundle\Admin\PlausibleAdmin:
+        arguments:
+            $viewBuilderFactory: '@sulu_admin.view_builder_factory'
+            $securityChecker: '@sulu_security.security_checker'
+            $domain: '%plausible.domain%'
+            $baseUrl: '%plausible.base_url%'
+            $authKey: '%plausible.auth_key%'
